@@ -13,6 +13,10 @@
            fetch="https://github.com/Ksawlii-Android-Repos"
            revision="fifteen" />
 
+  <remote  name="ksawliis-mods-gitlab"
+           fetch="https://gitlab.com/Ksawlii1"
+           revision="fifteen" />
+
   <!-- AOSP additions -->
   <project path="bionic" name="bionic" groups="pdk" remote="PixelOS" />
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="PixelOS" />
@@ -44,7 +48,7 @@
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="PixelOS" />
   <project path="vendor/aosp" name="vendor_aosp" remote="PixelOS" />
   <project path="vendor/custom-preference" name="vendor_custom-preference" remote="PixelOS" />
-  <project path="vendor/gms" name="vendor_gms" clone-depth="1" remote="PixelOS-Gitlab" />
+  <project path="vendor/gms" name="vendor_gms-PixelOS" clone-depth="1" remote="ksawliis-mods-gitlab" />
   <project path="vendor/google/overlays/ThemeIcons" name="vendor_google_overlays_ThemeIcons" remote="PixelOS" />
 
 </manifest>
