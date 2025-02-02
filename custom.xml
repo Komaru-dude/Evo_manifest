@@ -2,12 +2,16 @@
 <manifest>
 
   <remote  name="PixelOS"
-      fetch="https://github.com/PixelOS-AOSP"
+           fetch="https://github.com/PixelOS-AOSP"
            revision="refs/heads/fifteen" />
 
   <remote  name="PixelOS-Gitlab"
            fetch="https://gitlab.com/PixelOS-AOSP"
            revision="refs/heads/fifteen" />
+
+  <remote  name="ksawliis-mods"
+           fetch="https://github.com/Ksawlii-Android-Repos"
+           revision="fifteen" />
 
   <!-- AOSP additions -->
   <project path="bionic" name="bionic" groups="pdk" remote="PixelOS" />
