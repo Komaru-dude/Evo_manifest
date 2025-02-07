@@ -50,5 +50,6 @@
   <project path="vendor/custom-preference" name="vendor_custom-preference" remote="PixelOS" />
   <project path="vendor/gms" name="vendor_gms-PixelOS" clone-depth="1" remote="ksawliis-mods-gitlab" />
   <project path="vendor/google/overlays/ThemeIcons" name="vendor_google_overlays_ThemeIcons" remote="PixelOS" />
+  <project path="vendor/certification" name="ProjectPixelage/android_vendor_certification" remote="github" revision="15"/>
 
 </manifest>
