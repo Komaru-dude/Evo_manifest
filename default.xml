@@ -1331,4 +1331,5 @@
   <include name="snippets/evolution.xml" />
   <include name="snippets/lineage.xml" />
   <include name="snippets/pixel.xml" />
+  <include name="snippets/devices.xml" />
 </manifest>

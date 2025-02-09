@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="gt"
+          fetch="https://github.com"
+          clone-depth="1" />
+
+  <remote name="hipexscape"
+          fetch="https://github.com/hipexscape" />
+
+  <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common.git" remote="hipexscape" revision="15"/> 
+  <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common.git" remote="hipexscape" revision="15"/>
+  <project path="kernel/xiaomi/mt6768" name="MrShockWAVEE/android_kernel_xiaomi_mt6768" remote="gt" revision="kernel-tree-wip"/> 
